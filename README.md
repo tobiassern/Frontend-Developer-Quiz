@@ -1,6 +1,6 @@
-# Frontend Developer Quiz
+# Front-end Developer Quiz
 
-> A quiz for Frontend Developers developed with Vue.js
+> A quiz for Front-end Developers developed with Vue.js
 
 ## Build Setup
 

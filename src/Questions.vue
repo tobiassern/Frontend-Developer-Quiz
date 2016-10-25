@@ -3,7 +3,7 @@
 		<div class="loading loading-q" v-if="loading">
 		</div>
 		<div class="question-wrap">
-			<h1 class="text-center page-title"><small>Frontend Developer Quiz</small></h1>
+			<h1 class="text-center page-title"><small>Front-end Developer Quiz</small></h1>
 			<div class="divider"></div>
 			<div v-if="!loading && startGame && !showResult" class="question">
 				<div class="quiz-info">
