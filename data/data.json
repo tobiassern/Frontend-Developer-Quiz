@@ -1,0 +1,243 @@
+{
+    "questions": [
+        {
+			"question" : "Which of the following is NOT a valid border-style property value?",
+			"type" : "radio",
+			"correct" : 2,
+			"category" : "CSS",
+			"answers" : [
+							"dotted",
+							"inset",
+							"glazed",
+							"solid",
+							"groove"
+						]
+    	},
+        {
+			"question" : "When using media queries, which of the following is NOT a valid media type?",
+			"type" : "radio",
+			"correct" : 2,
+			"category" : "CSS",
+			"answers" : [
+							"tv",
+							"all",
+							"voice",
+							"print",
+							"tty",
+							"braille",
+							"embossed"
+						]
+    	},
+        {
+			"question" : "How do you define a flex container and enable flex content to all its children?",
+			"helper" : "The answer should be written like this <pre>attribute: value;</pre>",
+			"type" : "input",
+			"correct" : "display: flex;",
+			"category" : "CSS"
+    	},
+        {
+			"question" : "Which of the following is NOT a valid CSS unit?",
+			"type" : "radio",
+			"correct" : 3,
+			"category" : "CSS",
+			"answers" : [
+							"ch",
+							"turn",
+							"px",
+							"ems",
+							"dpcm",
+							"s",
+							"hz"
+						]
+    	},
+        {
+			"question" : "What is the definition of CSS?",
+			"type" : "radio",
+			"correct" : 0,
+			"category" : "CSS",
+			"answers" : [
+							"Cascading Style Sheets",
+							"Computer Styled Site",
+							"Composed Styling Syntax",
+							"Cascading Style Syntax"
+						]
+    	},
+        {
+			"question" : "What does SVG stand for?",
+			"type" : "radio",
+			"correct" : 2,
+			"category" : "CSS",
+			"answers" : [
+							"Scaled Voxel Graphics",
+							"Sampled Voxel Graph",
+							"Scalable Vector Graphics"
+						]
+    	},
+    	{
+			"question" : "What elements are included in a CSS Box model?",
+			"helper" : "Mark all that apply",
+			"type" : "checkbox",
+			"category" : "CSS",
+			"correct" : [0,1,2,3],
+			"answers" : [
+							"Margin",
+							"Border",
+							"Padding",
+							"Content"
+						]
+    	},
+    	{
+			"question" : "What are valid values to display: attribute?",
+			"helper" : "Mark all that apply",
+			"type" : "checkbox",
+			"category" : "CSS",
+			"correct" : [0,1,2],
+			"answers" : [
+							"none",
+							"inline",
+							"flex",
+							"visible"
+						]
+    	},
+    	{
+			"question" : "What are valid values to position: attribute?",
+			"helper" : "Mark all that apply",
+			"type" : "checkbox",
+			"category" : "CSS",
+			"correct" : [1,2,4],
+			"answers" : [
+							"top",
+							"absolute",
+							"flex",
+							"bottom",
+							"relative"
+						]
+    	},
+    	{
+			"question" : "What is CORS?",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 0,
+			"answers" : [
+							"Cross-origin Resource Sharing",
+							"Cross-origin Requests",
+							"Cross-origin Resource Script"
+						]
+    	},
+    	{
+			"question" : "What does REST stand for?",
+			"helper" : "Mark all that apply",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 1,
+			"answers" : [
+							"Repeated External Shared Token",
+							"Representational State Transfer",
+							"Request External Script Transfer"
+						]
+    	},
+        {
+			"question" : "What will the following code output?",
+			"helper" : "<pre>console.log(1 +  '2' + '2');</pre>",
+			"type" : "input",
+			"correct" : "122",
+			"category" : "JavaScript"
+    	},
+    	{
+			"question" : "What will the following code output?",
+			"helper" : "<pre>console.log(false == '0')</pre>",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 0,
+			"answers" : [
+							"true",
+							"false"
+						]
+    	},
+    	{
+			"question" : "What will the following code output?",
+			"helper" : "<pre>console.log(false === '0')</pre>",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 1,
+			"answers" : [
+							"true",
+							"false"
+						]
+    	},
+    	{
+			"question" : "Who have developed React?",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 1,
+			"answers" : [
+							"Google",
+							"Facebook",
+							"Microsoft",
+							"Dropbox"
+						]
+    	},
+    	{
+			"question" : "How can you empty the following array?",
+			"helper" : "<pre>var myArray = ['a', '2', '3'];</pre>Mark all that apply",
+			"type" : "checkbox",
+			"category" : "JavaScript",
+			"correct" : [0,2],
+			"answers" : [
+							"myArray.length = 0;",
+							"myArray.remove",
+							"myArray = []",
+							"myArray = 0"
+						]
+    	},
+    	{
+			"question" : "Which fruit will we get if we use the following code?",
+			"helper" : "<pre>var fruits = ['apple', 'orange', 'tomato', 'pear'];<br>console.log(fruits[2]);</pre>",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 2,
+			"answers" : [
+							"apple",
+							"orange",
+							"tomato",
+							"pear"
+						]
+    	},
+    	{
+			"question" : "Is &lt;script&gt; a selfclosing tag?",
+			"type" : "radio",
+			"category" : "JavaScript",
+			"correct" : 1,
+			"answers" : [
+							"Yes",
+							"No"
+						]
+    	},
+    	{
+			"question" : "What is the correct way to insert a css file in html?",
+			"type" : "radio",
+			"category" : "CSS",
+			"correct" : 3,
+			"answers" : [
+							"<link style='style.css'>",
+							"<link attr='stylesheet' href='style.css'>",
+							"<link href='stylesheet' link='style.css'></link>",
+							"<link rel='stylesheet' href='style.css'>",
+							"<link rel='stylesheet' href='style.css'></link>"
+						]
+    	},
+    	{
+			"question" : "Which of the following are valid if statements?",
+			"helper" : "Mark all that apply",
+			"type" : "checkbox",
+			"category" : "JavaScript",
+			"correct" : [0,2,3],
+			"answers" : [
+							"if(1 == 1)",
+							"if(1 = 1)",
+							"if(1 == 2)",
+							"if(1 == 2 | 1)"
+						]
+    	}
+    ]
+}
