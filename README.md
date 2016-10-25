@@ -1,7 +1,8 @@
 # Front-end Developer Quiz
 
 > A quiz for Front-end Developers developed with Vue.js
-> See it in action <a href="https://tobiassernhede.github.io/Frontend-Developer-Quiz/" target="_blank">here</a>
+See it in action <a href="https://tobiassernhede.github.io/Frontend-Developer-Quiz/" target="_blank">here</a>
+
 ## Build Setup
 
 ``` bash
