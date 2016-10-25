@@ -3,6 +3,8 @@
 		<div class="loading loading-q" v-if="loading">
 		</div>
 		<div class="question-wrap">
+			<h1 class="text-center page-title"><small>Frontend Developer Quiz</small></h1>
+			<div class="divider"></div>
 			<div v-if="!loading && startGame && !showResult" class="question">
 				<div class="quiz-info">
 					<span>Question {{totalAnswers + 1}} / {{questionAmount}}</span>
@@ -212,7 +214,6 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	height: 100vh;
 	width: 100%;
 	max-width: 540px;
